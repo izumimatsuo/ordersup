@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  app:
+    container_name: app
+    build:
+      context: .
+    volumes:
+      - '.:/projects'
+      - '/projects/node_modules'
+    ports:
+      - 8080:8080
+    tty: true
+    environment:
+      HTTPS_PROXY: ${HTTPS_PROXY}
+    command: npm run serve -- --port 8080 --host 0.0.0.0
