@@ -1,6 +1,40 @@
 <template>
   <v-app>
+    <v-app-bar
+      color="primary"
+      dark
+      app
+      :style="hidden ? 'display:none' : ''"
+    >
+      <template>
+        <v-tabs
+          show-arrows
+        >
+          <v-tab
+            v-for="i in navi_list.length"
+            :key="i"
+            @click="jump('#' + navi_list[i-1])"
+          >
+            {{ navi_list[i-1] }}
+          </v-tab>
+        </v-tabs>
+      </template>
+    </v-app-bar>
     <v-container class="grey lighten-5">
+      <template>
+        <v-row
+          class="blue lighten-4"
+          :style="total == 0 && hidden ? '' : 'display:none'"
+        >
+          <v-col>
+            <p
+              class="text-center"
+            >
+              余白
+            </p>
+          </v-col>
+        </v-row>
+      </template>
       <template v-for="(item, index) in items">
         <v-row
           v-if="item.header"
@@ -12,7 +46,7 @@
           <v-col>
             <v-subheader>
               <p
-                :id="item.header"
+                :id="item.tab"
                 style="margin-top: -80px; padding-top: 80px;"
               >
                 {{ item.header }}
@@ -26,7 +60,7 @@
           no-gutters
           align="center"
           :class="item.value ? 'grey lighten-3' : ''"
-          :style="item.text != 'セット' && !item.value && hidden ? 'display:none' : ''"
+          :style="(item.text != 'セット' || total == 0) && !item.value && hidden ? 'display:none' : ''"
         >
           <v-col cols="4">
             <v-checkbox
@@ -82,14 +116,20 @@ export default {
     return {
       items: [],
       navi_list: [],
-      navi_index: 0,
       total: 0,
       hidden: false
     }
   },
   created() {
     axios.get("menu.json")
-      .then(response => {this.items = response.data})
+      .then(response => {
+        this.items = response.data
+        for (let item of this.items) {
+          if (item.header) {
+            this.navi_list.push(item.tab)
+          }
+        }
+      })
   },
   methods: {
     onClear() {
@@ -98,7 +138,6 @@ export default {
         item.unit = 0
       }
       this.total = 0
-      this.hidden = false
       this.navi_index = 0
       window.location.href = "#top"
       this.$emit('updated', this.total)
@@ -114,24 +153,12 @@ export default {
       }
       this.$emit('updated', this.total)
     },
-    reduce() {
-      if (this.total == 0) {
-        return
-      }
-      this.hidden = !this.hidden
-      this.navi_index = 0
-      window.location.href = "#top"
+    jump(name) {
+      window.location.href = name
     },
-    navigation() {
-      if (this.navi_list.length == 0) {
-        for (let item of this.items) {
-          if (item.header) {
-            this.navi_list.push("#" + item.header)
-          }
-        }
-      }
-      this.navi_index = this.navi_index + 1 < this.navi_list.length ? ++this.navi_index : 0
-      window.location.href = this.navi_list[this.navi_index]
+    reduce() {
+      this.hidden = !this.hidden
+      window.location.href = "#top"
     },
     plus(item) {
       if (item.unit > 0) {
@@ -159,7 +186,7 @@ export default {
           this.total += item.price * item.unit
         }
       }
-      this.hidden = this.total == 0 ? fase : true
+      this.hidden = true
       this.$emit('updated', this.total)
     },
     removeData(index) {

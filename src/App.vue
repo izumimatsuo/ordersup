@@ -5,7 +5,7 @@
       dark
       app
     >
-      <v-toolbar-title><v-icon>mdi-calculator</v-icon>注文票</v-toolbar-title>
+      <v-toolbar-title>注文票</v-toolbar-title>
       <v-spacer />
       <v-icon
         v-for="n in pages.length"
@@ -42,20 +42,13 @@
         icon
         @click="reduce"
       >
-        <v-icon>mdi-check-circle-outline</v-icon>
+        <v-icon>mdi-calculator</v-icon>
       </v-btn>
       <v-btn
         icon
         @click="prev"
       >
         <v-icon>mdi-arrow-left</v-icon>
-      </v-btn>
-      <v-btn
-        x-large
-        icon
-        @click="down"
-      >
-        <v-icon>mdi-arrow-down</v-icon>
       </v-btn>
       <v-btn
         icon
@@ -100,12 +93,9 @@ export default {
         this.$refs.order.loadData(index-1)
       }
     },
-    down() {
-      this.$refs.order.navigation()
-    },
     next() {
       var index = this.pages.indexOf(true)
-      if (index < 4 ) {
+      if (index < 4 && this.total > 0 ) {
         this.pages[index] = false
         this.$set(this.pages, index, false)
         this.$set(this.pages, index+1, true)
