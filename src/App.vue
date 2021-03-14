@@ -34,7 +34,7 @@
       app
     >
       <v-col class="text-left">
-        合計 {{ (total + (total * tax)).toLocaleString() }} 円<br>（{{ total }}+{{ (total*tax) }}）
+        合計 {{ (total).toLocaleString() }} 円<br>（{{ Math.round(total/(1+tax)) }}+{{ Math.round(total-total/(1+tax)) }}）
       </v-col>
       <v-spacer />
       <v-btn
