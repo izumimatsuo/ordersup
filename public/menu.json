@@ -5,55 +5,55 @@
   },
   {
     "text": "スタンダード",
-    "price": 580,
+    "price": 638,
     "value": false,
     "unit": 0
   },
   {
     "text": "フルーツ",
-    "price": 790,
+    "price": 869,
     "value": false,
     "unit": 0
   },
   {
     "text": "小倉",
-    "price": 790,
+    "price": 869,
     "value": false,
     "unit": 0
   },
   {
     "text": "チョコ",
-    "price": 790,
+    "price": 869,
     "value": false,
     "unit": 0
   },
   {
     "text": "キャラメル",
-    "price": 790,
+    "price": 869,
     "value": false,
     "unit": 0
   },
   {
     "text": "ハム",
-    "price": 980,
+    "price": 1078,
     "value": false,
     "unit": 0
   },
   {
     "text": "フラ",
-    "price": 980,
+    "price": 1078,
     "value": false,
     "unit": 0
   },
   {
     "text": "スト",
-    "price": 830,
+    "price": 913,
     "value": false,
     "unit": 0
   },
   {
     "text": "セット",
-    "price": -100,
+    "price": -110,
     "value": false,
     "unit": 0
   },
@@ -65,7 +65,55 @@
   },
   {
     "text": "バター追加",
-    "price": 50,
+    "price": 55,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "ケーキ小さめ",
+    "price": 0,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "ケーキハーフ",
+    "price": 0,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "よく焼く",
+    "price": 0,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "生クリームぬき",
+    "price": 0,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "バニラぬき",
+    "price": 0,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "アングレソースぬき",
+    "price": 0,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "マスタードぬき",
+    "price": 0,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "ドレッシングぬき",
+    "price": 0,
     "value": false,
     "unit": 0
   },
@@ -75,127 +123,127 @@
   },
   {
     "text": "ブレンド",
-    "price": 470,
+    "price": 517,
     "value": false,
     "unit": 0
   },
   {
     "text": "アメリカン",
-    "price": 470,
+    "price": 517,
     "value": false,
     "unit": 0
   },
   {
     "text": "トラジャ",
-    "price": 530,
+    "price": 583,
     "value": false,
     "unit": 0
   },
   {
     "text": "カフェオレ",
-    "price": 530,
+    "price": 583,
     "value": false,
     "unit": 0
   },
   {
     "text": "カフェオレミルク多め",
-    "price": 530,
+    "price": 583,
     "value": false,
     "unit": 0
   },
   {
     "text": "ウインナー",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "ココア",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "ココア生クリーム抜き",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "ミルク",
-    "price": 470,
+    "price": 517,
     "value": false,
     "unit": 0
   },
   {
     "text": "ダーＳ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "ダーＭ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "ダーＬ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "アールＳ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "アールＭ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "アールＬ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "アップルＳ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "アップルＭ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "アップルＬ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "インＳ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "インＭ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "インＬ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
@@ -205,85 +253,85 @@
   },
   {
     "text": "Ｉコーヒー",
-    "price": 530,
+    "price": 583,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉオレ",
-    "price": 580,
+    "price": 638,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉオレミルク多め",
-    "price": 580,
+    "price": 638,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉウインナ",
-    "price": 630,
+    "price": 693,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＣＦ",
-    "price": 630,
+    "price": 693,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉココア",
-    "price": 630,
+    "price": 693,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉココア生クリーム抜き",
-    "price": 630,
+    "price": 693,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉミルク",
-    "price": 470,
+    "price": 517,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＩＴＳ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＩＴＭ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＩＴＬ",
-    "price": 570,
+    "price": 627,
     "value": false,
     "unit": 0
   },
   {
     "text": "ソーダ",
-    "price": 530,
+    "price": 583,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＣＳ",
-    "price": 630,
+    "price": 693,
     "value": false,
     "unit": 0
   },
   {
     "text": "レスカ",
-    "price": 700,
+    "price": 770,
     "value": false,
     "unit": 0
   },
@@ -293,73 +341,73 @@
   },
   {
     "text": "Ｌ",
-    "price": 600,
+    "price": 660,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｂ",
-    "price": 600,
+    "price": 660,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｏ",
-    "price": 700,
+    "price": 770,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＧＦ",
-    "price": 700,
+    "price": 770,
     "value": false,
     "unit": 0
   },
   {
     "text": "パイン",
-    "price": 700,
+    "price": 770,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＭＩＸ",
-    "price": 700,
+    "price": 770,
     "value": false,
     "unit": 0
   },
   {
     "text": "メロン",
-    "price": 1000,
+    "price": 1100,
     "value": false,
     "unit": 0
   },
   {
     "text": "マンゴー",
-    "price": 800,
+    "price": 880,
     "value": false,
     "unit": 0
   },
   {
     "text": "もも",
-    "price": 900,
+    "price": 990,
     "value": false,
     "unit": 0
   },
   {
     "text": "シェイク",
-    "price": 700,
+    "price": 770,
     "value": false,
     "unit": 0
   },
   {
     "text": "スト",
-    "price": 800,
+    "price": 880,
     "value": false,
     "unit": 0
   },
   {
     "text": "ぶどう",
-    "price": 900,
+    "price": 990,
     "value": false,
     "unit": 0
   },
@@ -369,37 +417,37 @@
   },
   {
     "text": "Ｓバナナ",
-    "price": 700,
+    "price": 770,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｓパイン",
-    "price": 700,
+    "price": 770,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｓラズベリー",
-    "price": 800,
+    "price": 880,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｓもも",
-    "price": 1000,
+    "price": 1100,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｓスト",
-    "price": 900,
+    "price": 990,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｓマンゴー",
-    "price": 800,
+    "price": 880,
     "value": false,
     "unit": 0
   },
@@ -409,67 +457,67 @@
   },
   {
     "text": "ポンチ",
-    "price": 850,
+    "price": 935,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｆシャン",
-    "price": 1000,
-    "value": false,
-    "unit": 0
-  },
-  {
-    "text": "バニラ",
-    "price": 600,
-    "value": false,
-    "unit": 0
-  },
-  {
-    "text": "シャーベ",
-    "price": 600,
-    "value": false,
-    "unit": 0
-  },
-  {
-    "text": "パインクープ",
-    "price": 800,
-    "value": false,
-    "unit": 0
-  },
-  {
-    "text": "バナナクープ",
-    "price": 800,
-    "value": false,
-    "unit": 0
-  },
-  {
-    "text": "メロンクープ",
-    "price": 1000,
-    "value": false,
-    "unit": 0
-  },
-  {
-    "text": "ストクープ",
-    "price": 950,
-    "value": false,
-    "unit": 0
-  },
-  {
-    "text": "ももクープ",
     "price": 1100,
     "value": false,
     "unit": 0
   },
   {
+    "text": "バニラ",
+    "price": 660,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "シャーベ",
+    "price": 660,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "パインクープ",
+    "price": 880,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "バナナクープ",
+    "price": 880,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "メロンクープ",
+    "price": 1100,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "ストクープ",
+    "price": 1045,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "ももクープ",
+    "price": 1210,
+    "value": false,
+    "unit": 0
+  },
+  {
     "text": "マンゴークープ",
-    "price": 900,
+    "price": 990,
     "value": false,
     "unit": 0
   },
   {
     "text": "フルヨ",
-    "price": 850,
+    "price": 935,
     "value": false,
     "unit": 0
   }
