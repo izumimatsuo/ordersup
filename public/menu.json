@@ -5,49 +5,49 @@
   },
   {
     "text": "スタンダード",
-    "price": 638,
+    "price": 640,
     "value": false,
     "unit": 0
   },
   {
     "text": "フルーツ",
-    "price": 869,
+    "price": 870,
     "value": false,
     "unit": 0
   },
   {
     "text": "小倉",
-    "price": 869,
+    "price": 870,
     "value": false,
     "unit": 0
   },
   {
     "text": "チョコ",
-    "price": 869,
+    "price": 870,
     "value": false,
     "unit": 0
   },
   {
     "text": "キャラメル",
-    "price": 869,
+    "price": 870,
     "value": false,
     "unit": 0
   },
   {
     "text": "ハム",
-    "price": 1078,
+    "price": 1080,
     "value": false,
     "unit": 0
   },
   {
     "text": "フラ",
-    "price": 1078,
+    "price": 1080,
     "value": false,
     "unit": 0
   },
   {
     "text": "スト",
-    "price": 913,
+    "price": 910,
     "value": false,
     "unit": 0
   },
@@ -65,7 +65,7 @@
   },
   {
     "text": "バター追加",
-    "price": 55,
+    "price": 60,
     "value": false,
     "unit": 0
   },
@@ -123,127 +123,127 @@
   },
   {
     "text": "ブレンド",
-    "price": 517,
+    "price": 520,
     "value": false,
     "unit": 0
   },
   {
     "text": "アメリカン",
-    "price": 517,
+    "price": 520,
     "value": false,
     "unit": 0
   },
   {
     "text": "トラジャ",
-    "price": 583,
+    "price": 580,
     "value": false,
     "unit": 0
   },
   {
     "text": "カフェオレ",
-    "price": 583,
+    "price": 580,
     "value": false,
     "unit": 0
   },
   {
     "text": "カフェオレミルク多め",
-    "price": 583,
+    "price": 580,
     "value": false,
     "unit": 0
   },
   {
     "text": "ウインナー",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "ココア",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "ココア生クリーム抜き",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "ミルク",
-    "price": 517,
+    "price": 520,
     "value": false,
     "unit": 0
   },
   {
     "text": "ダーＳ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "ダーＭ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "ダーＬ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "アールＳ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "アールＭ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "アールＬ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "アップルＳ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "アップルＭ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "アップルＬ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "インＳ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "インＭ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "インＬ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
@@ -253,79 +253,79 @@
   },
   {
     "text": "Ｉコーヒー",
-    "price": 583,
+    "price": 580,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉオレ",
-    "price": 638,
+    "price": 640,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉオレミルク多め",
-    "price": 638,
+    "price": 640,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉウインナ",
-    "price": 693,
+    "price": 690,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＣＦ",
-    "price": 693,
+    "price": 690,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉココア",
-    "price": 693,
+    "price": 690,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉココア生クリーム抜き",
-    "price": 693,
+    "price": 690,
     "value": false,
     "unit": 0
   },
   {
     "text": "Ｉミルク",
-    "price": 517,
+    "price": 520,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＩＴＳ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＩＴＭ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＩＴＬ",
-    "price": 627,
+    "price": 630,
     "value": false,
     "unit": 0
   },
   {
     "text": "ソーダ",
-    "price": 583,
+    "price": 580,
     "value": false,
     "unit": 0
   },
   {
     "text": "ＣＳ",
-    "price": 693,
+    "price": 690,
     "value": false,
     "unit": 0
   },
@@ -457,7 +457,7 @@
   },
   {
     "text": "ポンチ",
-    "price": 935,
+    "price": 940,
     "value": false,
     "unit": 0
   },
@@ -499,7 +499,7 @@
   },
   {
     "text": "ストクープ",
-    "price": 1045,
+    "price": 1050,
     "value": false,
     "unit": 0
   },
@@ -517,7 +517,7 @@
   },
   {
     "text": "フルヨ",
-    "price": 935,
+    "price": 940,
     "value": false,
     "unit": 0
   }
