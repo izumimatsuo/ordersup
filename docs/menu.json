@@ -248,6 +248,24 @@
     "unit": 0
   },
   {
+    "text": "氷なし",
+    "price": 0,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "食後",
+    "price": 0,
+    "value": false,
+    "unit": 0
+  },
+  {
+    "text": "先出し",
+    "price": 0,
+    "value": false,
+    "unit": 0
+  },
+  {
     "header": "コールドドリンク",
     "tab": "冷"
   },
