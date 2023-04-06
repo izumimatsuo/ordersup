@@ -266,6 +266,12 @@
     "unit": 0
   },
   {
+    "text": "一緒出し",
+    "price": 0,
+    "value": false,
+    "unit": 0
+  },
+  {
     "header": "コールドドリンク",
     "tab": "冷"
   },
